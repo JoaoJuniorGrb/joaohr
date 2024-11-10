@@ -25,6 +25,7 @@ import firebase_admin
 from firebase_admin import credentials, storage
 import json
 import control as ctrl
+import plotly.graph_objects as go
 
 url_imagem = "https://www.madeiratotal.com.br/wp-content/uploads/2024/10/Submarca-Fiedler-01-1024x358.webp"
 # Esconde o cabeçalho e o rodapé padrão do Streamlit
